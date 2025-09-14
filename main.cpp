@@ -47,6 +47,7 @@ private:
         }
         catch (const std::exception &e)
         {
+            std::cout << "yo!" << std::endl;
             std::cerr << e.what() << std::endl;
             return EXIT_FAILURE;
         }
